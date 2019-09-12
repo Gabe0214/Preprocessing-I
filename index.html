@@ -3,9 +3,9 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Resume</title>
-
+  <script src="https://kit.fontawesome.com/aa21c33862.js"></script>
   <link rel="stylesheet" href="css/index.css">
 
   <!--[if lt IE 9]>
@@ -14,6 +14,66 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <header>
+    <nav id="main-nav">
+      <div class="container">
+          <div class="a-container">
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Contact</a>
+              <a href="#">More</a>
+          </div>
+      </div>
+    </nav>
+  </header>
+  <section id="section-a">
+    <div class="container">
+      <div class="a-items">
+        <div class="a-text">
+          <h1>Intro</h1>
+          <div><img src="images/blur-code-dark-2653362.jpg " class="code" alt="code"></div>
+          <p>Hello. My Name is Gabriel Anguiano and I am from Las Vegas, Nevada. I am a student at Lambda School. I hope to become a future Full Web Stack Developer. Here is a list of all the current projects</p>
+          <a href="https://github.com/Gabe0214?tab=repositories" target="_blank" class="btn">Here</a>
+        </div>
+        <div class="image-1"><img src="images/vegas1.jpg" alt="image1"></div>
+      </div>
+    </div>
+  </section>
+  <section id="section-b">
+    <div class="container">
+      <div class="secondary-title"><h2>Worked With</h2></div>
+      <div class="b-items">
+        <div class="b-item">
+            <div class="icon-item"><i class="fab fa-html5 fa-4x"></i></div>
+            <h3>HTML5</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet culpa, veritatis, sunt accusantium inventore officia ullam quas aut pariatur sit beatae, cum placeat tenetur omnis?</p>
+        </div>
+        <div class="b-item">
+            <div class="icon-item"><i class="fab fa-css3-alt fa-4x"></i></div>
+            <h3>CSS3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet culpa, veritatis, sunt accusantium inventore officia ullam quas aut pariatur sit beatae, cum placeat tenetur omnis?</p>
+        </div>
+        <div class="b-item">
+            <div class="icon-item"><i class="fab fa-js fa-4x"></i></div>
+            <h3>Javascript</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet culpa, veritatis, sunt accusantium inventore officia ullam quas aut pariatur sit beatae, cum placeat tenetur omnis?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="section-c">
+    <div class="container">
+      <div class="third-title"><h2>Contact</h2></div>
+      <form>
+        <div class="text-fields">
+          <input type="text" placeholder="Name">
+          <input type="email" placeholder="Email Address">
+          <input type="text" placeholder="Phone Number">
+          <button type="submit" class="btn-dark">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
 </body>
 </html>
